@@ -1,4 +1,4 @@
-# Machine-Learning-Notes
+# Machine Learning List
 """
 Deep Learning - Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. ... While traditional machine learning algorithms are linear, deep learning algorithms are stacked in a hierarchy of increasing complexity and abstraction.
 
@@ -94,4 +94,38 @@ Bayesian - The Bayesian framework for machine learning states that you start out
   Gaussian Naive Bayes,
   Multinomial Naive Bayes,
   Bayesian Network (BN)
+"""
+
+# Name 1.Description 2.Adv 3.DisAdv
+"""
+Linear Regression
+1. The best fit line through all data points
+2. Easy to understand. You can clearly see what the biggest drivers of the model are.
+3. Sometimes too simple to capture complex relationships between variables. Tendency for the model to overfit.
+
+Logistic Regression
+1. The adoption for linear regression to problems of classification
+2. Easy to understand
+3. Sometimes too simple to capture complex relationships between variables. Tendency for the model to overfit.
+
+Decision Tree
+1. A graph that uses branching method to match all possible outcomes of a decision
+2. Easy to understand and implement
+3. Not often used for prediction bc it's often to simple and not powerful enough for complex data
+
+Random Forest
+1. Takes the average of many decision trees. Each tree is weaker than the full decision tree, but combining them we get better overall performance.
+2. Fast to train, and generally good quality results.
+3. Can be slow to output predictions relative to other algorithms. Not easy to understand predictions
+
+Gradient Boosting
+1.Uses even weaker decision trees that increasingly focused on hard examples.
+2. High Performing
+3. A small change in the future set or training set can create radical changes in the model. Not easy to understand predictions.
+
+Neural Networks
+1.Mimics the behaviour of the brain. NNs are interconnected neurons that pass messages to each other. Deep learning uses seperate layers of NNs to put one after the other.
+2. Can handle extremely complex tasks. No other algorithms comes close in image recognition
+3.very very slow to train, bc they have so many layers. Requier a lot of power. Almost impossible to understand predictions.
+
 """
